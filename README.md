@@ -15,17 +15,20 @@ C:\\documents\\example_folder\\images\\image.png
 - copy the include/ and lib/ folders from sfml 3 and put them in the root of your sfml-overly folder
 - next in VS 2022 run the debug or release version (this is expected to crash the first time)
 - lastly locate the bin folder in sfml 3 and copy  the window graphics and system .dll-s into x64
+  Note: debug requries the -d version of the Dll-s
   the final folder structure should look something like this:
 ```plaintext
 sfml-overlay/
-├── libs/          # All libraries go here 
-│   ├── libglfw.a       # Linux/macOS static
-│   ├── glfw3.lib       # Windows static
-│   └── libglfw.dll.a   # MinGW import lib
-├── include/        # Header files (.h)
-│   └── header.h
-├── src/            # Source files (.cpp)
-│   └── source.cpp
-├── main.cpp        # Main program
-└── Makefile
+├── include/
+├── lib/
+├── x64/
+│   ├── Debug/
+│   |    ├── sfml-system-d-3.dll
+│   |    ├── sfml-graphics-d-3.dll
+│   |    └── sfml-window-d-3.dll
+│   └── Release/
+│        ├── sfml-system-3.dll
+│        ├── sfml-graphics-3.dll
+│        └── sfml-window-3.dll
+└── nothing else requires modification
 ```
