@@ -1,0 +1,7 @@
+*.json
+
+include/
+lib/
+.vs/
+x64/
+sfml-overlay/
