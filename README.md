@@ -1,16 +1,12 @@
-# SFML Overlay
+# Setup And Uusage Guide
 
-A simple overlay project using SFML 3.
+## Release
+- navigate to releases and download the zip for the latest version
+- -after unzipping it run the exe once to create the json files
+- data.json requires you to input the direct path for all images used in the program 
+format them like so:
+`C:\\documents\\example_folder\\images\\image.png`
 
-## Features
-- Cross-platform (Windows, Linux)
-- Custom rendering
-- Easy integration
-
-## Installation
-```bash
-git clone https://github.com/user/sfml-overlay.git
-cd sfml-overlay
-mkdir build && cd build
-cmake ..
-make
+## Source
+- clone or download the repo wherever youd'd like
+- download the Visual C++ 17 (2022) of sfml 3.0 from [here]([https://openai.com](https://www.sfml-dev.org/download/sfml/3.0.0/))
