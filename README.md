@@ -1,4 +1,4 @@
-# Setup And Usage Guide
+# Setup And Usage
 
 ## Release
 - navigate to releases and download the zip for the latest version
