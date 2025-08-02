@@ -16,7 +16,8 @@ C:\\documents\\example_folder\\images\\image.png
 - next in VS 2022 run the debug or release version (this is expected to crash the first time)
 - lastly locate the bin folder in sfml 3 and copy  the window graphics and system .dll-s into x64
 
-  Note: debug requires the -d version of the DLLs 
+  Note: debug requires the -d version of the DLLs.
+  
   the final folder structure should look something like this:
 ```plaintext
 sfml-overlay/
