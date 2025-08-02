@@ -5,7 +5,9 @@
 - after unzipping it run the exe once to create the json files
 - data.json requires you to input the direct path for all images used in the program 
 format them like so:
-```plaintext C:\\documents\\example_folder\\images\\image.png```
+```plaintext
+C:\\documents\\example_folder\\images\\image.png
+```
 
 ## Source
 - clone or download the repo wherever youd'd like
