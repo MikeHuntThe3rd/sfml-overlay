@@ -9,4 +9,4 @@ format them like so:
 
 ## Source
 - clone or download the repo wherever youd'd like
-- download the Visual C++ 17 (2022) of sfml 3.0 from [here]([https://openai.com](https://www.sfml-dev.org/download/sfml/3.0.0/)
+- download the Visual C++ 17 (2022) of sfml 3.0 from [here](https://www.sfml-dev.org/download/sfml/3.0.0/)
